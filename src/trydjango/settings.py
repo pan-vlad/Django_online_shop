@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-0o$_2^_yb1$@f3w+f=b9ltir6-_a%bpu3h_umi^z7377d)b1yw'
 
-# SECURITY WARNING: don't run with debug turned on in production!
+# SECURITY WARNING: don'home.html run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = []
@@ -59,7 +59,7 @@ ROOT_URLCONF = 'trydjango.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['C:/Users/panao/django_4_hours/src/templates/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
